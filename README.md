@@ -24,8 +24,6 @@ What if we wanted to add a particular word to the list of words represented by t
 - First, we’d need to check that the word pecked doesn’t already exist in this trie.
 - Next, if we’ve traversed down the branch where this word ought to live and the words doesn’t exist yet, we’d insert a value into the node’s reference where the word should go.
 
-## Contact
-Need help? Got any queries? Feel free to hit me up at sanakahnn@gmail.com.
 But how do we actually go about checking if the word exists? And how do we insert the letters into their correct places? This is easier to understand with a small trie as an example, so let’s look at a trie that is empty, and try inserting the word "pie" into it.
 
 We know that we’ll have an empty root node, which will have a value of "", and an array with 26 references in it, all of which will be empty (pointing to null) to start. We’ll work our way through the key, using each letter to build up our trie and add nodes as necessary.
@@ -118,3 +116,6 @@ Requirements: Trie is not empty. <br> Result: Check the spelling of Eword whethe
 
 - ####  Vector< string> OutputSuffix(suffix)
 Requirements: Trie is not empty. <br> Result: Search for all the words with the given suffix.
+
+## Contact
+Need help? Got any queries? Feel free to hit me up at sanakahnn@gmail.com.
